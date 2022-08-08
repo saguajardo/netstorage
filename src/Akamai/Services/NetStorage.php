@@ -40,7 +40,7 @@ class NetStorage
         }
         $validator = new Valitron($config);
         $validator->rule('required', ['AKAMAI_KEY', 'AKAMAI_KEYNAME', 'AKAMAI_HOST']);
-        $validator->rule('length', 'AKAMAI_KEY', 50);
+        $validator->rule('length', 'AKAMAI_KEY', 47);
 
         if (!$validator->validate()) {
             // Concatinate all message and Throw exception
