@@ -1,0 +1,25 @@
+{
+  "name": "saguajardo/netstorage",
+  "description": "Akamai Netstorage Library",
+  "type": "Library",
+  "license": "GNU",
+  "authors": [
+    {
+      "name": "Sebastian Guajardo",
+      "email": "guajardosa@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "vlucas/phpdotenv": "5.2.0",
+    "vlucas/valitron": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Akamai\\": "src\\Akamai\\"
+    }
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^3.0"
+  }
+}
