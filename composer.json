@@ -2,7 +2,7 @@
   "name": "saguajardo/netstorage",
   "description": "Akamai Netstorage Library",
   "type": "Library",
-  "license": "GNU",
+  "license": "MIT",
   "authors": [
     {
       "name": "Sebastian Guajardo",
